@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import AboutMe from "./pages/About-Me";
-import Contact from "./pages/Contact";
+import Footer from "./Footer";
 import Projects from "./pages/Projects";
 
 function PortfolioContainer() {
@@ -11,10 +11,7 @@ function PortfolioContainer() {
         if (currentPage === 'About-Me') {
             return <AboutMe />;
         }
-        if (currentPage === 'Projects') {
-            return <Projects />;
-        }
-        return <Contact />;
+        return <Projects />;
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -23,6 +20,7 @@ function PortfolioContainer() {
         <div>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }

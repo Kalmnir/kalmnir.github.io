@@ -9,8 +9,6 @@ function Navbar({ currentPage, handlePageChange }) {
                             onClick={() => handlePageChange('About-Me')} className={currentPage === 'About-Me' ? 'nav-link active' : 'nav-link'}>About Me</a></li>
                         <li className="nav-item"><a aria-current="location" href='#Projects'
                             onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a></li>
-                        <li className="nav-item"><a aria-current="location" href='#Contact'
-                            onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact Me</a></li>
                     </ul>
                 </div>
             </nav>
