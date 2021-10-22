@@ -8,9 +8,17 @@ function AboutMe() {
                 <p>Hello there! My name is John-Mark Sackett, and I'm a full stack web developer with a passion for backend
                     development living in the small town of Athens,
                     Pennsylvania.</p>
-                <p>I have aptitudes in GIT, html, CSS, Sequelize, Node.js and Javascript, with a passion for sequelize
-                    database
-                    management and api query building.</p>
+
+                <ul>My Skills</ul>
+                <li>GIT</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Sequelize</li>
+                <li>React</li>
             </div>
             <img src={nicePhoto} alt='Portrait' />
         </div>
