@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5a334137.chunk.css",
-    "main.js": "/static/js/main.3ffd66d2.chunk.js",
-    "main.js.map": "/static/js/main.3ffd66d2.chunk.js.map",
+    "main.js": "/static/js/main.e60da43d.chunk.js",
+    "main.js.map": "/static/js/main.e60da43d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bd4b5c3c.js",
     "runtime-main.js.map": "/static/js/runtime-main.bd4b5c3c.js.map",
     "static/js/2.c9aa405e.chunk.js": "/static/js/2.c9aa405e.chunk.js",
@@ -14,13 +14,13 @@
     "static/media/Note_Taker.75bca544.png": "/static/media/Note_Taker.75bca544.png",
     "static/media/Quizzes&Cocktails.b3a1500c.png": "/static/media/Quizzes&Cocktails.b3a1500c.png",
     "static/media/Weather_Search_Site.1c9b9c38.png": "/static/media/Weather_Search_Site.1c9b9c38.png",
-    "static/media/WorkDayScheduler.c2b2182b.png": "/static/media/WorkDayScheduler.c2b2182b.png",
-    "static/media/nice_coat.6c53babe.jpg": "/static/media/nice_coat.6c53babe.jpg"
+    "static/media/nice_coat.6c53babe.jpg": "/static/media/nice_coat.6c53babe.jpg",
+    "static/media/the_wish_trip.9c09024d.png": "/static/media/the_wish_trip.9c09024d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bd4b5c3c.js",
     "static/js/2.c9aa405e.chunk.js",
     "static/css/main.5a334137.chunk.css",
-    "static/js/main.3ffd66d2.chunk.js"
+    "static/js/main.e60da43d.chunk.js"
   ]
 }
