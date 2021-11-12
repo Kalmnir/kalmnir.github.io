@@ -2,7 +2,7 @@ import beverageViber from '../images/Beverage_Viber.png';
 import noteTaker from '../images/Note_Taker.png';
 import quizzesCocktails from '../images/Quizzes&Cocktails.png';
 import weatherSite from '../images/Weather_Search_Site.png';
-import workdayPlanner from '../images/WorkDayScheduler.png';
+import wishTrip from '../images/the_wish_trip.png';
 
 function Projects() {
     return (
@@ -32,6 +32,12 @@ function Projects() {
                         </a>
                     </div>
                     <div className="col-6 border">
+                        <a className="pinned-homework" href="https://the-wish-trip.herokuapp.com/">The Wish Trip
+                            <img src={wishTrip} className="img-thumbnail"
+                                alt="thumbnail for The Wish Trip group project" />
+                        </a>
+                    </div>
+                    <div className="col-6 border">
                         <a className="pinned-homework" href="https://kalmnir.github.io/Weather-Dashboard/">Weather Dashboard
                             <img src={weatherSite} className="img-thumbnail"
                                 alt="Thumbnail for the weather search site application" />
@@ -44,12 +50,7 @@ function Projects() {
 
                         </a>
                     </div>
-                    <div className="col-6 border">
-                        <a className="pinned-homework" href="https://kalmnir.github.io/Workday-planner/">Workday Planner
-                            <img src={workdayPlanner} className="img-thumbnail"
-                                alt="thumbnail for the workday planner application" />
-                        </a>
-                    </div>
+
 
                 </div>
             </div>
